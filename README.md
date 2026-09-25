@@ -5,7 +5,7 @@
 ## Como utilizar:
 
 
-Para utilizá-lo, basta apenas executar os seguintes comandos em uma máquina contendo \_git\_
+Para utilizá-lo, basta apenas executar os seguintes comandos em uma máquina contendo _git_
 
 
 
