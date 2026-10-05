@@ -1,8 +1,8 @@
-\#Agilizador
+# Agilizador
 
+_Este é um breve agilizador de comandos simples. Atualmente tem poucas funções, podendo fazer verificações de sistema básicas e podendo criar arquivos para agilizar o processo de programação._
 
-
-\##Como utilizar:
+## Como utilizar:
 
 
 Para utilizá-lo, basta apenas executar os seguintes comandos em uma máquina contendo \_git\_
@@ -13,6 +13,11 @@ Para utilizá-lo, basta apenas executar os seguintes comandos em uma máquina co
 
 git clone <URL>
 
-agilizador.bat
+main.bat
 
+```
+
+# STATUS
+```
+Em DESENVOLVIMENTO
 ```
