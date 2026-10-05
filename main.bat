@@ -95,8 +95,7 @@ if "%opcao%"=="1" (
     )
     ) else if "!subOpcao!"=="4" (
         call main.bat
-    )
-) else if "%opcao%"=="3" (
+    ) else if "%opcao%"=="3" (
     exit
 )
 pause
