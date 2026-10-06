@@ -68,8 +68,9 @@ if "%opcao%"=="1" (
     echo: [1] - Criar arquivo HTML
     echo: [2] - Criar arquivo C
     echo: [3] - Criar arquivo C++
-    echo: [4] - Voltar ao Menu Principal
-    choice /C:1234 /N
+    echo: [4] - Criar arquivo PHP
+    echo: [5] - Voltar ao Menu Principal
+    choice /C:12345 /N
     set "subOpcao=!errorlevel!"
     if "!subOpcao!"=="1" (
         echo:
@@ -92,9 +93,16 @@ if "%opcao%"=="1" (
         set /p caminho="Caminho: "
 
         "%~dp0src\arqPro\cpp.bat"
-    )
     ) else if "!subOpcao!"=="4" (
+        echo:
+        echo:
+        echo: Insira o caminho completo do arquivo PHP que deseja criar:
+        set /p caminho="Caminho: "
+
+        "%~dp0src\arqPro\php.bat"
+    ) else if "!subOpcao!"=="5" (
         call main.bat
+    )
     ) else if "%opcao%"=="3" (
     exit
 )
